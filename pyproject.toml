@@ -1,0 +1,17 @@
+[project]
+name = "playwright-server"
+version = "0.1.0"
+description = "\\A MCP server with playwright tools\\"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [ "mcp>=1.1.2", "playwright"]
+[[project.authors]]
+name = "YUNYING"
+email = "qcyunying@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+playwright-server = "playwright_server:main"
