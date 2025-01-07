@@ -190,8 +190,7 @@ class ToolHandler:
 
 class NewSessionToolHandler(ToolHandler):
     async def handle(self, name: str, arguments: dict | None) -> list[types.TextContent | types.ImageContent | types.EmbeddedResource]:
-        if not self._playwright:
-            self._playwright = await async_playwright().start()
+        self._playwright = await async_playwright().start()
         browser = await self._playwright.chromium.launch(headless=False)
         page = await browser.new_page()
         session_id = str(uuid.uuid4())
