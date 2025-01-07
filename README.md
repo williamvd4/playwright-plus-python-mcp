@@ -2,6 +2,8 @@
 
 \A MCP server with playwright tools\
 
+<a href="https://glama.ai/mcp/servers/c50bsocgzb"><img width="380" height="200" src="https://glama.ai/mcp/servers/c50bsocgzb/badge" alt="Playwright Server MCP server" /></a>
+
 ## Components
 
 ### Resources
