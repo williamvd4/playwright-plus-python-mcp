@@ -3,6 +3,7 @@
 \A MCP server with playwright tools\
 
 <a href="https://glama.ai/mcp/servers/c50bsocgzb"><img width="380" height="200" src="https://glama.ai/mcp/servers/c50bsocgzb/badge" alt="Playwright Server MCP server" /></a>
+<a href="https://smithery.ai/server/@williamvd4/playwright-plus-python-mcp"><img alt="Smithery Badge" src="https://smithery.ai/badge/@williamvd4/playwright-plus-python-mcp"></a>
 
 ## Components
 
